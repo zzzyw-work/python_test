@@ -98,10 +98,6 @@ sub(pattern,repl,string)	把字符串中的所有匹配表达式pattern中的地
 输入: s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]
 输出: false
 
-作者：力扣 (LeetCode)
-链接：https://leetcode-cn.com/leetbook/read/top-interview-questions/xa503c/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 dp[i]表示到第i-1个字符时，是否为能被拆分为字典里的单词
 状态转移矩阵：
