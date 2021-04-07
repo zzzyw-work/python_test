@@ -38,7 +38,7 @@
 # }
 # }
 
-
+#知识点    enumerate函数的综合运用
 class Solution(object):
     def searchInsert(self, nums, target):
         """
